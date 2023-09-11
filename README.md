@@ -7,7 +7,7 @@
 Antes de iniciar o projeto, certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em nodejs.org.
 
 ## Iniciando o Projeto
-Para iniciar o projeto em modo de teste, siga os seguintes passos:
+Para iniciar o projeto em modo de desenvolvimento, subindo um servidor local e disponibilizando por padrão no endereço http://localhost:3000/. siga os seguintes passos:
 
 Clone o repositório:
 
