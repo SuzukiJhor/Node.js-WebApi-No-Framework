@@ -35,13 +35,13 @@ A API oferece as seguintes funcionalidades:
 - Atualizar informações de um herói existente
 - Excluir um herói
 - Rotas da API
-- 
+  
 ## A API possui as seguintes rotas:
-GET /heroes: Lista todos os heróis
-GET /heroes/{id}: Obtém informações de um herói específico
-POST /heroes: Cria um novo herói
-PUT /heroes/{id}: Atualiza informações de um herói existente
-DELETE /heroes/{id}: Exclui um herói
+- GET /heroes: Lista todos os heróis
+- GET /heroes/{id}: Obtém informações de um herói específico
+- POST /heroes: Cria um novo herói
+- PUT /heroes/{id}: Atualiza informações de um herói existente
+- DELETE /heroes/{id}: Exclui um herói
 
 ## Exemplo de Uso
 Você pode usar ferramentas como curl ou aplicativos como o Postman para testar as rotas da API.
