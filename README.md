@@ -16,19 +16,20 @@ Para iniciar o projeto em modo de teste, você pode seguir os seguintes passos:
    git clone https://github.com/seu-usuario/seu-projeto.git
 Acesse o diretório do projeto:
 
-bash
-Copy code
-cd seu-projeto
+   ```bash
+   Copy code
+   cd seu-projeto
 Instale as dependências:
 
-bash
-Copy code
-npm install
+
+   ```bash
+   Copy code
+   npm install
 Execute os testes:
 
-bash
-Copy code
-npm run test
+   ```bash
+   Copy code
+   npm run test
 Funcionalidades da API
 A API oferece as seguintes funcionalidades:
 
@@ -50,6 +51,6 @@ Você pode usar ferramentas como curl ou aplicativos como o Postman para testar 
 
 Aqui está um exemplo de como listar todos os heróis usando o curl:
 
-bash
+   ```bash
 Copy code
 curl http://localhost:3000/heroes
