@@ -1,35 +1,35 @@
-# Node.js-WebApi-No-Framework
+Node.js Web API sem Framework
+Node.js Logo
 
-Este é um projeto Node.js que implementa uma API simples para gerenciar uma lista de heróis. A API permite listar, criar, editar e deletar heróis. O projeto foi construído sem o uso de frameworks, demonstrando como criar uma API básica em Node.js a partir do zero.
+Este é um projeto Node.js que implementa uma API simples para gerenciar uma lista de heróis. A API permite listar, criar, editar e excluir heróis. O projeto foi construído sem o uso de frameworks, demonstrando como criar uma API básica em Node.js a partir do zero.
 
-## Pré-requisitos
+Pré-requisitos
+Antes de iniciar o projeto, certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em nodejs.org.
 
-Certifique-se de ter o Node.js instalado na sua máquina antes de executar o projeto.
+Iniciando o Projeto
+Para iniciar o projeto em modo de teste, siga os seguintes passos:
 
-## Iniciando o Projeto
+Clone o repositório:
 
-Para iniciar o projeto em modo de teste, você pode seguir os seguintes passos:
-
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+```bash
+Copy code
+git clone https://github.com/seu-usuario/seu-projeto.git
+```
 Acesse o diretório do projeto:
-
-   ```bash
-   Copy code
-   cd seu-projeto
+```bash
+Copy code
+cd seu-projeto
+```
 Instale as dependências:
-
-
-   ```bash
-   Copy code
-   npm install
+```bash
+Copy code
+npm install
+```
 Execute os testes:
-
-   ```bash
-   Copy code
-   npm run test
+```bash
+Copy code
+npm run test
+```
 Funcionalidades da API
 A API oferece as seguintes funcionalidades:
 
@@ -51,6 +51,6 @@ Você pode usar ferramentas como curl ou aplicativos como o Postman para testar 
 
 Aqui está um exemplo de como listar todos os heróis usando o curl:
 
-   ```bash
+```bash
 Copy code
 curl http://localhost:3000/heroes
