@@ -18,6 +18,7 @@ class HeroRepository {
     }
 
     async create(data) {
+        console.log(data)
         const currentFile = await this._currentFileContent()
         currentFile.push(data)
 
